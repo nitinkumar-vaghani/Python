@@ -361,19 +361,19 @@ FastAPI uses type hints **for:**
 
 # 🔥 **19. Summary Table**
 
-| Concept     | Example                | Description                  |                         |
-| ----------- | ---------------------- | ---------------------------- | ----------------------- |
-| Basic types | `age: int`             | Simple annotation            |                         |
-| Functions   | `def f(a: int) -> int` | Annotate parameters & return |                         |
-| Union       | `int                   | str`                         | Multiple possible types |
-| Optional    | `str                   | None`                        | Allows None             |
-| Collections | `list[int]`            | Typed lists, dicts, tuples   |                         |
-| Aliases     | `UserId = int`         | Better readability           |                         |
-| TypedDict   | Structured dict        | Replaces loose dicts         |                         |
-| Generics    | `Generic[T]`           | Dynamic types                |                         |
-| Callable    | `Callable[[A], B]`     | Function types               |                         |
-| Literal     | `Literal["ok"]`        | Exact allowed values         |                         |
-| Protocol    | Structural typing      | Interface-like behavior      |                         |
+| Concept     | Example                | Description                  |
+| ----------- | ---------------------- | ---------------------------- |
+| Basic types | `age: int`             | Simple annotation            |
+| Functions   | `def f(a: int) -> int` | Annotate parameters & return |
+| Union       | `int "pipesign" str`   | Multiple possible types      |
+| Optional    | `str "pipesign" None`  | Allows None                  |
+| Collections | `list[int]`            | Typed lists, dicts, tuples   |
+| Aliases     | `UserId = int`         | Better readability           |
+| TypedDict   | Structured dict        | Replaces loose dicts         |
+| Generics    | `Generic[T]`           | Dynamic types                |
+| Callable    | `Callable[[A], B]`     | Function types               |
+| Literal     | `Literal["ok"]`        | Exact allowed values         |
+| Protocol    | Structural typing      | Interface-like behavior      |
 
 ---
 
