@@ -1,6 +1,7 @@
+
 ---
 
-# Complete List of Python Concepts You Should Learn.
+# Complete List of Python Concepts You Should Learn Before FastAPI
 
 Here are the concepts grouped logically from beginner to intermediate.
 
@@ -353,5 +354,3 @@ After completing this 28-day Python roadmap, you will have:
 * Testing experience
 * Type checking
 * Code formatting and linting knowledge
-
-* # Best of Luck
